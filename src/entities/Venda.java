@@ -8,13 +8,10 @@ public class Venda {
     private List<ItemVenda> itens;
     private double valorTotal;
 
-    public Venda(Usuario usuario, List<ItemVenda> itens2, double valorTotal) {
+    public Venda(Usuario usuario, List<ItemVenda> itens, double valorTotal) {
         this.usuario = usuario;
-        this.itens = itens2;
+        this.itens = itens;
         this.valorTotal = valorTotal;
-    }
-
-    public Venda(Usuario usuario2, List<ItemVenda> itens2, int valorTotal2) {
     }
 
     public Usuario getUsuario() {
@@ -45,5 +42,6 @@ public class Venda {
     public String toString() {
         return "Venda {\nusuario: " + usuario + ",\nitens=" + itens + ",\nvalorTotal=" + valorTotal + "}";
     }
+
 
 }
