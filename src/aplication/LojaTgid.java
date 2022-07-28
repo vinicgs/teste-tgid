@@ -46,7 +46,7 @@ public class LojaTgid {
 			System.out.println(produto + "\n" + "-----------------");
 		}
 
-		/* relatorio de venda, pega o nome do usuario */
+		/* relatorio de venda */
 		System.out.println("Relatório de Venda");
 		System.out.println("=================");
 		System.out.println("Usuário: " + compra.getUsuario().getNome());
